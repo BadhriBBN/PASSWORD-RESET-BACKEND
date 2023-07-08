@@ -41,6 +41,7 @@ const nodemailer = require("nodemailer");
 
 app.get("/", function (req, res) {
     response.send("welcome to password reset flow api🎉🎉🎉🎉🎉");
+    console.log(res.body)
 });
 
 
